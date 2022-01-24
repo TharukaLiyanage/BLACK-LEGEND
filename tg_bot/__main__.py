@@ -52,7 +52,7 @@ def get_readable_time(seconds: int) -> str:
 PM_START_TEXT = """
 **🅷🅴🅻🅻🅾️ {}, My Name Is *{}*!\n 
 People's sometime find *Hard* to manage their groups, *So I am here to help you*.\n
-[ᴍʏ Mⱥຮteℝ💥](t.me/alain_champion).
+[ᴍʏ Mⱥຮteℝ💥](t.me/TharukzGamingYT).
  
 You can find the list of available commands with /help.
 """
@@ -68,7 +68,7 @@ Hello! my name *{}*.
    - in a group: will redirect you to pm, with all that chat's settings.
 {}
 """.format(dispatcher.bot.first_name, "" if not ALLOW_EXCL else "All commands can either be used with / or !.\n")
-TECHNO_IMG = "https://telegra.ph/file/ffbb1445362ffe45ab4c9.jpg"
+TECHNO_IMG = "https://telegra.ph/file/9f78e297b33954a8a6f97.jpg"
 IMPORTED = {}
 MIGRATEABLE = []
 HELPABLE = {}
@@ -82,8 +82,7 @@ USER_SETTINGS = {}
 
 
 SOURCE_STRING = """
-🎓 I'm built in python3, using the python-telegram-bot library, and am fully opensource - [Repo](https://github.com/infotechbro/BLACK-LEGEND)
-☄ You Can Clone Me [Heroku](https://heroku.com/deploy?template=https://github.com/infotechbro/BLACK-LEGEND.git)
+🎓 I'm built in python3, using the python-telegram-bot library, and am fully 
 """
 
 
@@ -136,8 +135,8 @@ def send_help(chat_id, text, keyboard=None):
 @run_async
 def alain(bot: Bot, update: Update):
     pprint(eval(str(update)))
-    update.effective_message.reply_text("📬*ʀᴇᴘᴏ ғᴏʀ ʙʟᴀᴄᴋ ʟᴇɢᴇɴᴅ ʙᴏᴛ ɪs* :- [𝙲𝙻𝙸𝙲𝙺 𝙼𝙴](GitHub.com/infotechbro/black_legend)", parse_mode=ParseMode.MARKDOWN)
-    update.effective_message.reply_text("📬*ʀᴇᴘᴏ ғᴏʀ ʙʟᴀᴄᴋ ʟᴇɢᴇɴᴅ ʙᴏᴛ ɪs* :- [𝙲𝙻𝙸𝙲𝙺 𝙼𝙴](GitHub.com/infotechbro/black_legend)_", parse_mode=ParseMode.MARKDOWN)
+    update.effective_message.reply_text("📬*ʀᴇᴘᴏ ғᴏʀ White Tharukz ʙᴏᴛ ɪs* :- [𝙲𝙻𝙸𝙲𝙺 𝙼𝙴](GitHub.com/infotechbro/black_legend)", parse_mode=ParseMode.MARKDOWN)
+    update.effective_message.reply_text("📬*ʀᴇᴘᴏ ғᴏʀ White Tharukz ʙᴏᴛ ɪs* :- [𝙲𝙻𝙸𝙲𝙺 𝙼𝙴](GitHub.com/infotechbro/black_legend)_", parse_mode=ParseMode.MARKDOWN)
     print(update.effective_message)
 
 @run_async
@@ -168,7 +167,7 @@ def start(bot: Bot, update: Update, args: List[str]):
                 parse_mode=ParseMode.MARKDOWN, reply_markup=InlineKeyboardMarkup(
                     [[
                         InlineKeyboardButton(
-                            text="ADD BLACK LEGEND 🤖 IN YOUR GROUP",url="t.me/{}?startgroup=true".format(bot.username))
+                            text="ADD White Tharukz 🤖 IN YOUR GROUP",url="t.me/{}?startgroup=true".format(bot.username))
                     ],
                      [
                          InlineKeyboardButton(
@@ -181,11 +180,11 @@ def start(bot: Bot, update: Update, args: List[str]):
                      [
                          InlineKeyboardButton(
                              text="⚡ My Creator ⚡",
-                             url="t.me/Alain_Champion")
+                             url="t.me/TharukzGamingYT")
                      ]]))
 
     else:
-        update.effective_message.reply_text("╔═════════════════╗\n 「 ★᯾ вℓΛ¢к ℓєgєη∂ ᯾★ 」\n╚═════════════════╝",reply_markup=InlineKeyboardMarkup(
+        update.effective_message.reply_text("╔═════════════════╗\n 「 ★᯾ White Tharukz ᯾★ 」\n╚═════════════════╝",reply_markup=InlineKeyboardMarkup(
                                                 [[InlineKeyboardButton(text="PM For Help",url="t.me/{}?start=help".format(bot.username))]]))
 
 
